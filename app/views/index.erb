@@ -1,0 +1,26 @@
+<div class="wrapper-main-page width-entries">
+
+  <div class="container container-amber">
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm text-center">
+        <img class="amber-pic" src="/images/profile/ProfilePic.png">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <% @listings.each do |listing| %>
+
+
+        <div class="col-3 text-center list-group list-group-item text-container">
+          <img src="/images/listing/<%= listing.photos.first.name%>" alt="house" class="img-fluid">
+          <a href="/posts/<%= listing.id%>"><%= listing.content %></a>
+        </div>
+
+      <% end %>
+    </div>
+    
+  </div>
+
+</div>
+

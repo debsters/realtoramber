@@ -1,0 +1,1089 @@
+@media screen {
+
+  img.whatever-img {
+    width: 9rem;
+  }
+  /* img.house-pic {
+    width: 25rem;
+    display: block;
+    margin: auto;
+  } */
+
+  img.amber-pic {
+    width: 20rem;
+  }
+
+ /* .container-deb {
+    position: relative;
+    bottom: 12rem;
+    z-index: -9999;
+  } */
+
+
+  /* --- Navbar Styling --- */
+  .bg-primary {
+    background-color: #eee !important;
+    border-color: #d5d5d5;
+    background-image: linear-gradient(white, #eee 50%, #e4e4e4);
+  }
+  .navbar {
+    border-style: solid;
+    border-width: 0 1px 4px 1px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-link {
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .navbar-dark .navbar-brand {
+    color: rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-brand {
+    font-size: 1.09375rem;
+  }
+
+  /* --- Button Styling --- */
+  .btn {
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    border-style: solid;
+    border-width: 0 1px 4px 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .btn-success {
+    background-color: #793EB0;
+    border-color: #452465;
+  }
+  .btn-success:hover {
+    background-color: #793EB0;
+    border-color: #452465;
+  }
+
+  .btn-success:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #793EB0;
+    border-color: #452465;
+  }
+
+  .btn-info {
+    border-color: #24267b;
+    background-color: #4d51fd;
+  }
+
+  .btn-info:hover {
+    border-color: #24267b;
+    background-color: #4d51fd;
+  }
+
+  .btn-info:not(:disabled):not(.disabled):active {
+    border-color: #24267b;
+    background-color: #4d51fd;
+  }
+
+  .btn:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+  }
+
+  .btn:not(.disabled):hover {
+    margin-top: 1px;
+    border-bottom-width: 3px;
+  }
+
+  /* --- Base-Level Styling --- */
+
+  body {
+    background: url(../stylesheets/images/background/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-color: #f9fbf2; */
+    background-color: #fff;
+    padding-top: 4.5rem;
+  }
+
+   /* --- Custom Megstrap Styling --- */
+   .wrapper-main-page {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: #fff;
+    -moz-box-shadow: 0 0 2rem rgba(41, 30, 53, 0.5);
+    -webkit-box-shadow: 0 0 2rem rgba(41, 30, 53, 0.5);
+    box-shadow: 0 0 2rem rgba(41, 30, 53, 0.5);
+    /* margin: 1.6rem auto; */
+    padding: 2.25%;
+    width: 85%;
+    margin-top: 0;
+    margin: 0 auto;
+  }
+
+  /* --- About Page Styling --- */
+  .headline-center-push {
+    flex: 0 0 85%;
+    max-width: 85%;
+  } 
+
+  img.logo {
+    width: 13rem;
+  }
+
+  p.headline {
+    font-size: 1.13rem;
+    line-height: normal;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Libre Franklin', Helvetica, sans-serif;
+    color: rgba(41, 30, 53, 1);
+    font-weight: 400;
+    list-style: none;
+  }
+    /* --- HowToUse/FAQs/TheIdea --- */
+    .btn-main-page {
+      border: 0;
+      outline: 0;
+      font-size: 1rem;
+      border-radius: 5rem;
+      padding: 0.5rem 0.75rem;
+      background-color: rgb(39 150 141);
+      text-shadow: 1px 1px 0 #343a40;
+      color: #f9fbf2;
+      box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+      transition: all 0.2s ease-in-out;
+      font-weight: 600;
+      display: block;
+    }
+
+  .push-line {
+    border-top: 0.23rem dashed rgba(164, 181, 197, 1);
+    padding-top: 1rem;
+    margin-top: 1rem
+  }
+
+  /* h2.main-page {
+    border-bottom: 0.23rem dashed rgba(164, 181, 197, 1);
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 0.4rem;
+    margin: 1.2rem 0rem 1rem 0rem;
+    text-align: left;
+    font-weight: bold;
+  } */
+
+  .started {
+    min-width: 150px;
+    padding: 15px 10px;
+    margin: 20px;
+    background: rgb(214, 214, 214);
+    border: none;
+    border-radius: 25px;
+    color: rgb(39 150 141);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .started:hover {
+    box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7), inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  /* --- Login/Signup Form Styling --- */
+  .container-session-form {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .signup,
+  .login{
+    width: 50%;
+    background: #fff;
+    float: left;
+    line-height: 2rem;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+
+  .login {
+    color: #fff;
+    padding: 0.5rem;
+    background-color: #008080;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #212529;
+  }
+
+  .signup {
+    color: #008080;
+    padding: 0.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #babecc;
+  }
+
+  .signup-form,
+  .login-form{
+    background: #fff;
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .neumorphism-input {
+    color: #3e3e40;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    border: 0;
+    outline: 0;
+    font-size: 0.95rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    background-color: #f9fcfd;
+    text-shadow: 1px 1px 0 #FFF;
+  }
+
+  .neumorphism-input:focus{
+    border: 2px solid #34b3a0;
+  }
+
+  .input-group-addon {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5rem;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+  }
+
+  .custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    line-height: 1.5;
+    color: #6b757d;
+    vertical-align: middle;
+    background: #fff url('../stylesheets/images/arrow.svg') no-repeat right 1rem center;
+    background-size: 10px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .btn-form-sessions {
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    background-color: #f9fcfd;
+    text-shadow: 1px 1px 0 #FFF;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+  }
+
+  .btn-form-sessions:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+    color: #AE1100;
+  }
+
+  .signup-btn {
+    color: #AE1100;
+  }
+
+  .login-btn {
+    color: #AE1100;
+  }
+
+  /* --- New Entry Form Styling --- */
+  h3.entry {
+    color: #6495ed;
+    text-transform: uppercase;
+    font-size: 1.10rem;
+    font-weight: bold;
+  }
+
+  p.mood-level-p {
+    color: #fff;
+    background-color: #758feb;
+    border-color: #5f80e8;
+    border-style: solid;
+    border-width: 0px 1px 4px 1px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding: 0.4rem 0.4rem;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1rem;
+  }
+
+  p.energy-level-p {
+    color: #fff;
+    background-color: #618e40;
+    border-color: #76a056;
+    border-style: solid;
+    border-width: 0px 1px 4px 1px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding: 0.4rem 0.4rem;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1rem;
+  }
+
+  img.batteries {
+    width: 100%;
+  }
+
+  .form-check-label {
+    color: #23a127;
+  }
+
+  .entry-input {
+    padding: 0.35rem;
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .fit-content {
+    width: fit-content;
+  }
+
+  .label-black {
+    color: #000;
+  }
+
+  .thead-green {
+    background-color: #2db1a7;
+    color: #fff;
+    border-color: #dee2e6;
+    font-size: 0.8rem;
+    border-width: 0 1px 4px 1px;
+  }
+
+  .table-font {
+    font-size: 0.875rem;
+  }
+
+  .entry-table {
+    color: #3e3e40;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    border: 0;
+    outline: 0;
+    border-radius: 5rem;
+    background-color: #f9fcfd;
+    text-shadow: 1px 1px 0 #FFF;
+    font-size: 0.875rem;
+    width: 8rem;
+  }
+
+  select.entry-table {
+    color: #6b757d;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -1px -2px 0px #FFF;
+    border-radius: 1rem;
+  }
+
+  .btn-submit {
+    background-color: #2db1a7;
+    border-color: #227f78;
+    color: #fff;
+  }
+
+  .btn-cancel {
+    background-color: #6c757d;
+    border-color: #494d52;
+    color: #fff;
+  }
+
+  /* --- Entries Page Styling --- */
+  .width-entries {
+    width: 100%;
+    padding: 1%;
+    background: transparent;
+  }
+
+  .btn-phone-entries {
+    width: 8rem;
+  }
+
+  h1.entries {
+    color: rgba(249, 251, 242, 1);
+    text-shadow: -1.5px -1.5px 0px rgb(38 150 141), -1.5px 1.5px 0px rgb(38 150 141), 1.5px -1.5px 0px rgb(38 150 141), 1.5px 1.5px 0px rgb(45 177 167), 0px 0px 15px #d1d1d1, 0px 0px 15px rgb(173 213 210);
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .table-font-entries {
+    font-size: 0.875rem;
+  }
+
+  .table-row-entries {
+    color: #222;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+  }
+
+  .table-entries td, .table-entries th {
+    padding: .75rem .40rem;
+    vertical-align: middle;
+  }
+
+  .table-entries thead tr th label {
+    width: max-content;
+  }
+
+  .table-entries tbody tr td label {
+    width: max-content;
+  }
+
+  .table-entries tbody tr td:nth-child(3) label {
+    width: fit-content;
+  }
+
+  .table-striped tbody tr:nth-of-type(odd):hover {
+    background-color: rgb(0 123 255 / 15%);
+  }
+
+  tr.table-row-entries:hover {
+    background-color: rgb(114 221 212 / 32%);
+  }
+
+  a.entries-link {
+    color: #26968d;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 0 1px 4px 1px;
+    /* text-transform: uppercase; */
+    border-color: #2db1a7;
+    background-color: #f5fbff;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0.175rem 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+
+  a.entries-link:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+    
+  }
+
+  a.entries-link:not(.disabled):hover {
+    margin-top: 1px;
+    border-bottom-width: 3px;
+  }
+
+
+  /* --- Individual Entry Page Styling --- */
+  .entry {
+    background: #FFF;
+  }
+
+  img.emoji {
+    width: 6rem;
+  }
+
+  img.battery {
+    width: 6rem;
+  }
+
+  img.icon-edit-entries {
+    width: 1.5rem;
+  }
+
+  img.icon-delete-entries {
+    width: 1.5rem;
+  }
+
+  .button-entry {
+    border-style: solid;
+    border-width: 0 1px 4px 1px;
+    text-transform: uppercase;
+    width: 75%;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+    color: #212529;
+    transition: all 0.2s ease-in-out;
+    font-weight: 600;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+    border-radius: 5rem;
+    line-height: 0;
+  }
+
+  .entry-col {
+    padding: .75rem .40rem;
+  }
+
+  .entry-col label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: .5rem;
+  }
+
+  .row-hover:hover {
+    background-color: rgb(0 123 255 / 15%);
+  }
+
+  /* --- Explore Medications Styling --- */
+  button.letter-index {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 0.875rem;
+    border: 0;
+    outline: 0;
+    padding: 1rem;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+    color: #61677C;
+    transition: all 0.2s ease-in-out;
+    font-weight: 600;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+    border-radius: 8px;
+    line-height: 0;
+    width: 1rem;
+    height: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem 0.2rem;
+  }
+
+  button.letter-index:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+  }
+
+  a.med-links {
+    font-weight: bold;
+    color: #61677c;
+  }
+
+  /* --- Statistics Styling --- */
+  h1.chart-not-enough {
+    text-align: center;
+  }
+  .chart-statistics {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    background: #f8f8ff;
+    box-shadow: 0 0 2rem rgba(41, 30, 53, 0.5);
+    margin: 1.6rem auto;
+    padding: 2.25%;
+    width: 85%;
+    padding-bottom: 5rem;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e); */
+    background-color: #8d94b1;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 1rem;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 29rem;
+    bottom: 1rem;
+    opacity: 1;
+    transition: opacity .15s ease;
+  }
+
+  .carousel-control-next {
+    right: 2rem;
+  }
+
+  .carousel-control-prev {
+    left: 2rem;
+  }
+
+  .carousel-indicators li {
+    background-color: #073b4c;
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 1.5rem;
+    border-top: 0px;
+    border-bottom: 0px;
+  }
+
+  .carousel-indicators li.active {
+    background-color: #1c43b9;
+  }
+
+  .carousel-indicators {
+    bottom: 2rem;
+  } 
+
+  .button-statistics {
+    font-size: 0.7rem;
+    border-color: #e3e3e3;
+    border-style: solid;
+    border-width: 0px 1px 4px 1px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    padding: 0.4rem;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+    color: #000000;
+  }
+
+  /* --- Individual Medication Styling --- */
+  .med-name {
+    color: #793eb0;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 26%);
+  }
+
+  .section {
+    font-family: 'Montserrat', sans-serif;
+    color: #1d6da5;
+    font-weight: bold;
+    border-bottom-style: solid;
+  }
+
+  .paragraph {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    text-shadow: 1px 1px 0 #26968d52;
+  }
+
+  .active {
+    color: #25a127;
+    text-shadow: 1px 1px 0 #343a4045;
+  }
+
+  .deactive {
+    color: #ff4136;
+    text-shadow: 1px 1px 0 #343a4045;
+  }
+
+  .radio-currently {
+    color: #452465;
+    font-weight: bold;
+    font-size: 0.875rem;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 10px;
+    background-color: #f6f6f6;
+    text-align: left;
+  }
+
+  .description {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    min-width: 0;
+    overflow: hidden;
+    display: block;
+    font-size: 0.875rem;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .status-word-active {
+    color: #25a127;
+    font-weight: bold;
+    vertical-align: middle;
+    width: fit-content;
+    margin: 0px 0px 0px 0px;
+    padding: 0.75rem 0.75rem;
+    font-size: 0.875rem;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #fff;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+
+  .status-word-deactivated {
+    color: #ff4136;
+    font-weight: bold;
+    vertical-align: middle;
+    width: fit-content;
+    margin: 0px 0px 0px 0px;
+    padding: 0.75rem 0.75rem;
+    font-size: 0.875rem;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #fff;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+
+  .brace {
+    width: auto;
+    min-width: 35px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    line-height: 2em;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 15px 15px;
+    border: none;
+    background-color: transparent;
+    background-image: radial-gradient(circle at 0 0, rgba(255,255,255,0) 14.5px, #26968d 15.5px, #26968d 19.5px, rgba(255,255,255,0) 20.5px), radial-gradient(circle at 35px 0, rgba(255,255,255,0) 14.5px, #26968d 15.5px, #26968d 19.5px, rgba(255,255,255,0) 20.5px);
+    background-size: 35px 20px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    text-transform: lowercase;
+    font-style: italic;
+    color: #fff;
+    -webkit-filter: drop-shadow(0 1px 1px rgba(0,0,0,0.15));
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.15));
+    overflow: visible;
+  }
+
+  .brace:before {
+    width: 50%;
+    border-top: 5px solid #26968d;
+    border-left: 1px solid transparent; /* play with this until you like the look of it */
+    border-top-left-radius: 20% 30px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -15px;
+    box-sizing: border-box;
+    margin-top: -5px;
+  }
+  .brace:after {
+    width: 50%;
+    border-top: 5px solid #26968d;
+    border-right: 1px solid transparent; /* play with this until you like the look of it */
+    border-top-right-radius: 20% 30px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: -15px;
+    box-sizing: border-box;
+    margin-top: -5px;
+  }
+
+  /* --- Medication List Styling --- */
+  h2.border-bottom-med {
+    border-bottom: 0.4rem dashed rgba(164, 181, 197, 1);
+    padding-bottom: 0.4rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+
+  a.med-links-list {
+    font-weight: bold;
+    color: #008fff;
+  }
+
+  /* -- Footer --- */
+  footer.branding {
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    border-top: 4px solid #d5d5d5;
+    background-color: #eee !important;
+    background-image: linear-gradient(white, #eee 50%, #e4e4e4);
+    padding-left: 10px;
+  }
+  
+  .fixed-bottom, .push {
+    height: 4rem;
+  }
+
+
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+  /* --- Custom Megstrap Styling --- */
+  .container-fluid {
+    margin-top: -1.5rem;
+  }
+
+  .wrapper-main-page {
+    padding: 2.25%;
+    width: 100%;
+  }
+
+  /* --- About Page Styling --- */
+  .headline-center-push {
+    flex: none;
+    max-width: 100%;
+  } 
+
+  img.logo {
+    width: 7rem;
+  }
+
+  p.headline {
+    font-size: 0.80rem;
+    line-height: unset;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #222;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+
+  .text-center.col-3 {
+    max-width: 100%;
+    flex: 1rem;
+  }
+
+  .btn-main-page {
+    font-size: 0.7rem;
+    border-radius: 5rem;
+    padding: 0.2rem 0.6rem;
+  }
+
+  h2.main-page {
+    font-size: 1rem;
+    padding-bottom: 0.4rem;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+
+  /* --- Login/Signup Form Styling --- */
+  .signup, .login {
+    line-height: 1rem;
+  }
+
+  .login {
+    color: #fff;
+    padding: 0.5rem;
+    background-color: #008080;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #212529;
+  }
+
+  .signup {
+    color: #008080;
+    padding: 0.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #babecc;
+  }
+
+  .btn-form-sessions {
+    font-size: 1rem;
+    border-radius: 5rem;
+    padding: 0.5rem;
+  }
+
+  .signup-btn {
+    color: #AE1100;
+  }
+
+  .login-btn {
+    color: #AE1100;
+  }
+
+  /* --- New Entry Form Styling --- */
+  .entry-table {
+    width: 100%;
+  }
+
+  /* --- Entries Page Styling --- */
+  .table-entries td, .table-entries th {
+    padding: .75rem .40rem;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .table thead th {
+    vertical-align: middle;
+    border-bottom: 2px solid #dee2e6;
+  }
+
+  /* --- Individual Entry Page Styling --- */
+  .entry {
+    background: #FFF;
+  }
+
+  img.emoji {
+    width: 6rem;
+  }
+
+  img.battery {
+    width: 6rem;
+  }
+
+  .button-entry {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  /* --- Statistics Styling --- */
+  h1.entries.statistics {
+    font-size: 1.75rem;
+  }
+
+  h1.chart-not-enough {
+    text-align: center;
+  }
+  .chart-statistics {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    background: #f8f8ff;
+    box-shadow: 0 0 0rem rgba(41, 30, 53, 0.5);
+    margin: 1.6rem auto;
+    padding: 2.25%;
+    width: 85%;
+    padding-bottom: 5rem;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e); */
+    background-color: #8d94b1;
+    font-size: 1rem;
+    border-radius: 5rem;
+    width: 2rem;
+    height: 2rem;
+    background-size: 1rem;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 29rem;
+    bottom: 1rem;
+    opacity: 1;
+    transition: opacity .15s ease;
+  }
+
+  .carousel-control-next {
+    right: 2rem;
+  }
+
+  .carousel-control-prev {
+    left: 2rem;
+  }
+
+  .carousel-indicators li {
+    background-color: #073b4c;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 1.5rem;
+    border-top: 0px;
+    border-bottom: 0px;
+  }
+  
+  .carousel-indicators li.active {
+    background-color: #1c43b9;
+  }
+
+  .carousel-indicators {
+    bottom: 1rem;
+  } 
+
+  .button-statistics {
+    font-size: 0.7rem;
+    border-color: #e3e3e3;
+    border-style: solid;
+    border-width: 0px 1px 4px 1px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    padding: 0.4rem;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+    color: #000000;
+  }
+
+  .button-reports {
+    font-size: 0.665rem;
+  }
+
+  /* --- Individual Medication Styling --- */
+  .text-container {
+    width: 84%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .med-name-phone {
+    font-size: 1rem;
+    display: block;
+  }
+
+  .form-med-list {
+    margin: 0rem 1rem;
+  }
+
+  /* --- Medication List Styling --- */
+  a.med-links-list {
+    color: #FFF;
+  }
+
+  
+  /* -- Footer --- */
+  .fixed-bottom, .push {
+    height: 3rem;
+  }
+
+
+}
